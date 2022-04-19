@@ -43,7 +43,8 @@ set backspace=indent,eol,start
 set vb t_vb=
 " エラーによるビープ音を無効
 set noerrorbells
-
+" タブの切り替えを楽に
+nnoremap <C-w> <C-w>w
 
 " 見た目系
 " 行番号を表示
