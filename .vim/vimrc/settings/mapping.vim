@@ -26,3 +26,6 @@ nnoremap <C-t> :bo term
 inoremap ff <Esc>
 vnoremap ff <Esc>
 
+" 保存して終了
+nnoremap zz ZZ
+
