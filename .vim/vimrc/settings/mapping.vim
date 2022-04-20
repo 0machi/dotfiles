@@ -22,3 +22,7 @@ augroup END
 " ターミナルを画面下端に開く
 nnoremap <C-t> :bo term
 
+" Escape
+inoremap ff <Esc>
+vnoremap ff <Esc>
+
