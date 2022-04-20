@@ -22,7 +22,7 @@ set hidden
 " yでコピーした時にクリップボードに入る
 set guioptions+=a
 " クリップボードとコピペを共有
-set clipboard
+set clipboard&
 set clipboard^=unnamed
 
 
