@@ -20,7 +20,7 @@ augroup MyXML
 augroup END
 
 " ターミナルを画面下端に開く
-nnoremap <C-t> :bo term
+nnoremap <C-t> :bo term<CR>
 
 " Escape
 inoremap ff <Esc>
@@ -29,3 +29,5 @@ vnoremap ff <Esc>
 " 保存して終了
 nnoremap zz ZZ
 
+" FZF
+:nnoremap <Space>f :FZF<CR>

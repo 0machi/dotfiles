@@ -127,3 +127,9 @@ hook_add = '''
   augroup END
 '''
 
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+
