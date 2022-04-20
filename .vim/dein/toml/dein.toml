@@ -129,6 +129,16 @@ hook_add = '''
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+hook_add = '''
+" Ctrl+pでファイル検索を開く
+nnoremap <C-p> :call FzfOmniFiles()<CR>
+" Ctrl+gで文字列検索を開く
+nnoremap <C-g> :Rg<CR>
+" frでカーソル位置の単語をファイル検索する
+nnoremap fr vawy:Rg <C-R>"<CR>
+" frで選択した単語をファイル検索する
+xnoremap fr y:Rg <C-R>"<CR>
+'''
 
 [[plugins]]
 repo = 'junegunn/fzf'
