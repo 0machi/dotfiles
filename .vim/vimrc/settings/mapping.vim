@@ -19,3 +19,6 @@ augroup MyXML
   autocmd Filetype html inoremap <buffer> </ </<C-x><C-o>
 augroup END
 
+" ターミナルを画面下端に開く
+nnoremap <C-t> :bo term
+
