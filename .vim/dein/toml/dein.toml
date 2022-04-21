@@ -143,3 +143,8 @@ xnoremap fr y:Rg <C-R>"<CR>
 [[plugins]]
 repo = 'junegunn/fzf'
 
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+merged = '0'
+
