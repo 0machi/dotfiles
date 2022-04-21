@@ -10,7 +10,7 @@ nnoremap k gk
 nnoremap <C-w> <C-w>w
 
 " ESC連打で検索後のハイライトを解除
-nmap <Esc><Esc> :nohlsearch<CR><Esc>
+nnoremap ff :nohl<CR>
 
 " HTML/XML閉じタグ自動補完
 augroup MyXML
@@ -31,3 +31,7 @@ nnoremap zz ZZ
 
 " FZF
 :nnoremap <Space>f :FZF<CR>
+
+" カーソル下の単語をハイライトしてから置換
+nmap # <Space><Space>:%s/<C-r>///g<Left><Left>
+
