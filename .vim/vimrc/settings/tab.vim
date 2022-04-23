@@ -8,4 +8,3 @@ set tabstop=2
 set shiftwidth=2
 " Tab押下時に挿入される文字幅
 set softtabstop=2
-
