@@ -22,4 +22,3 @@ endif
 set smartindent
 " 新しい行を開始したとき、新しい行のインデントを現在と同じにする
 set autoindent
-

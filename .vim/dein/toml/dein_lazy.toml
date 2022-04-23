@@ -13,4 +13,3 @@ call deoplete#custom#option({
 \ 'max_list': 100
 \ })
 '''
-

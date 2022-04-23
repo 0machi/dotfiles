@@ -39,4 +39,3 @@ set background=dark
 colorscheme codedark
 " シンタックスハイライトの有効化
 syntax enable
-

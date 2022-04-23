@@ -153,4 +153,3 @@ repo = 'junegunn/fzf'
 repo = 'neoclide/coc.nvim'
 rev = 'release'
 merged = '0'
-
