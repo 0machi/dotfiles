@@ -26,6 +26,10 @@ nnoremap <C-t> :bo term<CR>
 inoremap ff <Esc>
 vnoremap ff <Esc>
 
+" 行末
+nnoremap <S-l> $
+vnoremap <S-l> $
+
 " 保存して終了
 nnoremap zz ZZ
 
