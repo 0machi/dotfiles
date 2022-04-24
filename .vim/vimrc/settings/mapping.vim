@@ -52,3 +52,7 @@ nmap <silent> <space>rf <Plug>(coc-references)
 nmap <silent> <space>rn <Plug>(coc-rename)
 "スペースfmtでFormat
 nmap <silent> <space>fmt <Plug>(coc-format)
+
+" 各モードを抜けるときに日本語入力を無効化
+autocmd InsertLeave * :call system('com.google.inputmethod.Japanese.Roman')
+autocmd CmdlineLeave * :call system('im-select com.apple.keylayout.ABC')

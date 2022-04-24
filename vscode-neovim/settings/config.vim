@@ -5,8 +5,6 @@ set fenc=utf-8
 " set ambiwidth=double
 " すべての数を10進数として扱う
 set nrformats=
-" インサートモードから抜けるときに日本語入力をOFF
-:let g:im_select_default = 'com.google.inputmethod.Japanese.Roman'
 
 
 " ファイル
