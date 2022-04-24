@@ -6,3 +6,4 @@ source ~/.vim/vimrc/settings/search.vim
 source ~/.vim/vimrc/settings/tab.vim
 source ~/.vim/vimrc/settings/visual.vim
 source ~/.vim/vimrc/settings/dein.vim
+
