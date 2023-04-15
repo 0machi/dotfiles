@@ -1,0 +1,62 @@
+[user]
+	name = Kohei Omachi
+	email = koomachi@yahoo-corp.jp
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[alias]
+	m = merge
+	mnff = merge --no-ff
+	ad = add
+	df = diff
+	dfc = diff --cached
+	dfbh = diff HEAD^ HEAD
+	st = status
+	sts = status -s
+	cldfn = clean -dfn
+	cldf = clean -df
+	cmm = commit -m
+	cmam = commit --amend -m
+	ps = push
+	psuo = push -u origin
+	fps = push --force-with-lease
+	pl = pull
+	fe = fetch
+	b = branch
+	sw = switch
+	swc = switch -c
+	lo = log --oneline
+	lgo = log --graph --oneline
+	lago = log --all --graph --oneline
+	lp = log -p
+	lt = log --graph --name-status --pretty=format:\"%C(red)%h %C(green)%an %Creset%s %C(yellow)%d%Creset\"
+	lg = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset)%C(yellow)%d%C(reset)\n  %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+	rbi = rebase -i
+	rba = rebase --abort
+	rbc = rebase --continue
+	rss = reset --soft
+	rsm = reset --mixed
+	rsh = reset --hard
+	rmao = remote add origin
+	cldf = clean -df .
+	rstst = restore --staged
+[core]
+	excludesfile = /Users/koomachi/.gitignore_global
+	pager = delta
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true  # use n and N to move between diff sections
+	light = false    # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+

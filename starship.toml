@@ -1,0 +1,11 @@
+add_newline = false
+
+[directory]
+truncate_to_repo = false
+
+[git_branch]
+symbol = " "
+
+[time]
+disabled = false
+
